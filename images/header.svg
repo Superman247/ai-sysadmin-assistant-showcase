@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="200" viewBox="0 0 1000 200" role="img" aria-label="AI System Administration Assistant">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0b132b"/><stop offset="0.6" stop-color="#1c2541"/><stop offset="1" stop-color="#0f4c5c"/></linearGradient>
+    <linearGradient id="t" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#5bc0eb"/><stop offset="1" stop-color="#9bf6c4"/></linearGradient>
+    <clipPath id="c"><rect width="1000" height="200" rx="14"/></clipPath>
+  </defs>
+  <g clip-path="url(#c)">
+    <rect width="1000" height="200" fill="url(#bg)"/>
+    <g opacity="0.15" stroke="#5bc0eb"><path d="M0 50H1000M0 100H1000M0 150H1000M125 0V200M250 0V200M375 0V200M500 0V200M625 0V200M750 0V200M875 0V200"/></g>
+    <path fill="#5bc0eb" fill-opacity="0.22" d="M0 165 C150 130 300 195 500 165 S850 130 1000 165 V200 H0Z">
+      <animate attributeName="d" dur="7s" repeatCount="indefinite" values="M0 165 C150 130 300 195 500 165 S850 130 1000 165 V200 H0Z;M0 165 C150 192 300 135 500 165 S850 192 1000 165 V200 H0Z;M0 165 C150 130 300 195 500 165 S850 130 1000 165 V200 H0Z"/>
+    </path>
+    <circle r="4" fill="#9bf6c4"><animateMotion dur="5s" repeatCount="indefinite" path="M60 40 L340 40 L340 80 L660 80 L660 40 L940 40"/></circle>
+    <text x="500" y="92" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="44" font-weight="700" fill="url(#t)" opacity="0">AI System Administration Assistant
+      <animate attributeName="opacity" from="0" to="1" dur="1.4s" fill="freeze"/><animate attributeName="y" from="112" to="92" dur="1.4s" fill="freeze"/></text>
+    <text x="500" y="132" text-anchor="middle" font-family="Consolas, Menlo, monospace" font-size="18" fill="#e0e6f0" opacity="0">Propose  |  Check policy  |  Approve  |  Audit
+      <animate attributeName="opacity" from="0" to="0.95" begin="1s" dur="1.2s" fill="freeze"/></text>
+  </g>
+</svg>

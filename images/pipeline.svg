@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="230" viewBox="0 0 1000 230" role="img" aria-label="Pipeline: request, AI proposal, policy check, approval, execution, audit log">
+  <defs><clipPath id="c"><rect width="1000" height="230" rx="14"/></clipPath></defs>
+  <g clip-path="url(#c)" font-family="Consolas, Menlo, monospace" font-size="14" fill="#e0e6f0" text-anchor="middle">
+    <rect width="1000" height="230" fill="#0b132b"/>
+    <g stroke="#5bc0eb" stroke-width="2" fill="#13213f">
+      <rect x="20" y="85" width="130" height="60" rx="8"/><rect x="190" y="85" width="130" height="60" rx="8"/><rect x="360" y="85" width="130" height="60" rx="8"/>
+      <rect x="530" y="85" width="130" height="60" rx="8"/><rect x="700" y="85" width="130" height="60" rx="8"/><rect x="870" y="85" width="110" height="60" rx="8"/>
+    </g>
+    <g stroke="#5bc0eb" stroke-opacity="0.7" stroke-width="2"><path d="M150 115H190M320 115H360M490 115H530M660 115H700M830 115H870"/></g>
+    <text x="85" y="120">Request</text><text x="255" y="112">AI</text><text x="255" y="130">proposal</text><text x="425" y="112">Policy</text><text x="425" y="130">rules</text>
+    <text x="595" y="112">Approval</text><text x="595" y="130">if risky</text><text x="765" y="120">Simulated</text><text x="925" y="112">Audit</text><text x="925" y="130">log</text>
+    <text x="500" y="40" font-size="16" fill="#9bf6c4">AI proposes. Rules decide. Risky actions need a second admin. Everything is logged.</text>
+    <text x="500" y="205" font-size="12" fill="#8d99ae">Simulator only: no changes are made to real Active Directory</text>
+    <circle r="7" fill="#9bf6c4"><animateMotion dur="6s" repeatCount="indefinite" path="M85 115 H255 H425 H595 H765 H925"/></circle>
+    <circle r="7" fill="#ffd166"><animateMotion dur="6s" begin="3s" repeatCount="indefinite" path="M85 115 H255 H425 H595 H765 H925"/></circle>
+  </g>
+</svg>
